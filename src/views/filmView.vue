@@ -1,10 +1,12 @@
 <template>
     <h2>Filmsida</h2>
+    <AddFilm @refresch-films="getFilms"/>
     <FilmItem v-for="film in films" :film="film" :key="film._id" @delete-film="deleteFilm"/>
 </template>
 
 <script setup>
     import FilmItem from '@/components/FilmItem.vue';
+    import AddFilm from '@/components/AddFilm.vue';
     import { ref, onMounted} from 'vue';
 
     const films =ref([])
