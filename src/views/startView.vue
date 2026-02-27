@@ -8,6 +8,9 @@
 </script>
 
 <style scoped>
-
+    img {
+        height: 20em;
+        width: 100%;
+    }
 </style>
     
