@@ -1,7 +1,23 @@
 <template>
     <h2>Filmsida</h2>
     <AddFilm @refresch-films="getFilms"/>
-    <FilmItem v-for="film in films" :film="film" :key="film._id" @delete-film="deleteFilm"/>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Släppt</th>
+                <th>Sedd</th>
+                <th>Ta bort</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr v-for="film in films" :film="film" :key="film._id" >
+                <FilmItem  :film="film" @delete-film="deleteFilm"/>
+            </tr>
+        </tbody>
+    </table>
+    
 </template>
 
 <script setup>
