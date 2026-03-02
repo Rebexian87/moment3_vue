@@ -1,23 +1,12 @@
 # moment3_vue
 
-This template should help get you started developing with Vue 3 in Vite.
+Av: Rebecca Smith, resm2400, 2026-03-02
 
-## Recommended IDE Setup
+## Applikationen innehåller
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Recommended Browser Setup
-
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+I denna applikation, som är gjord med hjälp av ramverket Vue, så kan man lägga till, läsa in och delete filmer till en databas. 
+På startsidan så finns lite information om vad applikationen handlar om. På Film-sidan så finns ett formulär där man kan spara filmer 
+till databasen samt en tabell där filmerna visas och man kan ta bort dessa. 
 
 ## Project Setup
 

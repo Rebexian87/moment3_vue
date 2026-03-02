@@ -7,16 +7,24 @@ import Footer from './components/Footer.vue';
 
 <template>
   <Header />
+  <div class="container">
   <main>
     <RouterView/>
   </main>
+  </div>
   <Footer />
 </template>
 
 <style scoped>
+  .container{
+    display: flex;
+  }
+
   main {
-    max-width: 1520px;
+    width: 1520px;    
     margin: auto;
+    text-align: center;
+    background-color: white;
   }
 </style>
 

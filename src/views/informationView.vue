@@ -10,5 +10,10 @@
 
 
 <style scoped>
-
+    p {
+        text-align: left;
+        max-width: 900px;
+        margin: auto;
+        margin-bottom: 1em;
+    }
 </style>
