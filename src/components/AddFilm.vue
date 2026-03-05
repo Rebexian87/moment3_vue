@@ -33,7 +33,7 @@
 
     import { ref } from 'vue';
     
-    //Variables that uses ref
+    //Variables that uses ref (reactive data)
     const title = ref("");
     const premiereYear =ref(0);
     const seen = ref(false)
